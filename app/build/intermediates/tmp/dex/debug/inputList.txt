@@ -1,0 +1,5 @@
+C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\classes\debug
+C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f762b287e9b92a3c5e5760c676c1a3129d9bd94e.jar
+C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-00005d10cf43eeb7af2dc5291c11bc0dc5695810.jar
+C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\pre-dexed\debug\classes-56696a5ea0216724117e27ab065abbcfd75f2a44.jar
+C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\pre-dexed\debug\classes-70d3160273aa1f7f9d085447be26881d74c3165a.jar

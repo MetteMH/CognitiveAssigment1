@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\pre-dexed\debug\classes-70d3160273aa1f7f9d085447be26881d74c3165a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bobbinette\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f762b287e9b92a3c5e5760c676c1a3129d9bd94e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\pre-dexed\debug\classes-56696a5ea0216724117e27ab065abbcfd75f2a44.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Bobbinette\Desktop\Msc\F15\02808_Personal_data_and_interaction\week1\CognitiveAssigment1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-00005d10cf43eeb7af2dc5291c11bc0dc5695810.jar" />
+    </item>
+
+</items>

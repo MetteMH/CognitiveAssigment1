@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">CognitiveAssigment1</string>
-    <string name="brain_training">Brain training</string>
-    <string name="start">Click to start</string>
+    <string name="action_settings">Action Settings</string>
+
+    <string name="reaction_time"> &lt;- Reaction time</string>
+    <string name="start">Tap to start</string>
 
 </resources>

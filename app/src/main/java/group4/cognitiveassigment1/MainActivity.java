@@ -5,13 +5,15 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import android.view.LayoutInflater;
 import android.content.Intent;
 
 
 public class MainActivity extends ActionBarActivity {
 
-    private Button start_ex = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,19 +21,24 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /**
-    start_ex = (TextView) findViewById(R.id.start);
+    TextView txtContinue;
 
-    start_ex.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent secondeActivite = new Intent(MainActivity.this, IntentExample.class);
 
-            // Puis on lance l'intent !
-            startActivity(secondeActivite);
-        }
-    });
-**/
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View v = inflater.inflate(R.layout.activity_main, container, false);
+        txtContinue = (TextView) v.findViewById(R.id.start);
+
+        txtContinue.setOnClickListener(new OnClickListener() {
+
+            public void onClick(View v) {onStart(); }
+
+        });
+
+        return v;
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -55,4 +62,14 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
+    public void onStart() {
+        launchMenu();
+    }
+
+
+    void launchMenu(){
+        Intent i = new Intent(this, ColorExercise.class);
+        startActivity(i);
+    }
 }

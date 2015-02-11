@@ -1410,6 +1410,7 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int menu_main=0x7f0c0000;
+        public static int mainActivity;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0a0000;

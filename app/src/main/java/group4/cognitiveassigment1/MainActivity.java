@@ -2,6 +2,7 @@ package group4.cognitiveassigment1;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,7 +33,9 @@ public class MainActivity extends ActionBarActivity {
 
         txtContinue.setOnClickListener(new OnClickListener() {
 
-            public void onClick(View v) {onStart(); }
+            public void onClick(View v) {
+                launchMenu();
+            }
 
         });
 
@@ -43,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.mainActivity, menu);
         return true;
     }
 
@@ -61,12 +64,19 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+/*    @Override
+    protected void onStop() {
+        Log.w(ACTIVITY_SERVICE, "App stopped");
 
-
-    public void onStart() {
-        launchMenu();
+        super.onStop();
     }
 
+    @Override
+    protected void onDestroy() {
+        Log.w(ACTIVITY_SERVICE, "App destroyed");
+
+        super.onDestroy();
+    }*/
 
     void launchMenu(){
         Intent i = new Intent(this, ColorExercise.class);
